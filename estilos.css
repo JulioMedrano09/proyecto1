@@ -1,0 +1,159 @@
+            html {
+                font-size: 62.5%;
+            }
+            
+            body {
+                margin: 0;
+            }
+            
+            header {
+                display: flex;
+                background-color: forestgreen;
+                font-size: 14px;
+                justify-content: center;
+                font-family: cursive;
+                color: #ffffff;
+            }
+            
+            section {
+                display: flex;
+                justify-content: left;
+                width: 100%;
+            }
+            
+            .tarjeta {
+                display: grid;
+                justify-items: center;
+                margin-top: 50px;
+                margin-left: 50px;
+                width: 250px;
+                height: 400px;
+                background-color: #fff;
+                border-radius: 20px;
+                overflow: hidden;
+                box-shadow: 0px 0px 25px forestgreen;
+            }
+            
+            .tarjeta img {
+                margin-top: 20px;
+                box-shadow: 0px 0px 10px forestgreen;
+                width: 35%;
+                border-radius: 20px;
+                object-fit: scale-down;
+            }
+            
+            .tarjeta p {
+                text-align: center;
+            }
+            
+            .tarjeta p:nth-child(3) {
+                color: grey;
+                margin-top: -30px;
+                font-size: 20px;
+            }
+            
+            .tarjeta p:nth-child(2) {
+                margin-top: 5px;
+                font-weight: 600;
+                font-size: 30px;
+                color: forestgreen;
+            }
+            
+            .tarjeta #boton {
+                color: #ffffff;
+                font-size: 30px;
+                width: 100%;
+                background-color: forestgreen;
+                text-align: center;
+                padding-top: 40px;
+            }
+            
+            .tutorial {
+                display: block;
+                justify-items: left;
+                margin-top: 50px;
+                margin-left: 50px;
+                width: 250px;
+                height: 350px;
+                background-color: #fff;
+                border-radius: 20px;
+                overflow: hidden;
+                box-shadow: 0px 0px 25px forestgreen;
+            }
+            
+            .tutorial h2 {
+                color: forestgreen;
+                font-size: 25px;
+                font-family: cursive;
+                text-align: center;
+            }
+            
+            .tutorial p:nth-child(2) {
+                margin-top: 5px;
+                font-weight: 600;
+                font-size: 20px;
+                color: forestgreen;
+                margin-left: 3%;
+            }
+            
+            .tutorial li:nth-child(3) {
+                margin-top: 5px;
+                font-weight: 600;
+                font-size: 20px;
+                color: forestgreen;
+                margin-left: 3%;
+            }
+            
+            .tutorial li:nth-child(4) {
+                margin-top: 5px;
+                font-weight: 600;
+                font-size: 20px;
+                color: forestgreen;
+                margin-left: 3%;
+            }
+            
+            .tutorial li:nth-child(5) {
+                margin-top: 5px;
+                font-weight: 600;
+                font-size: 20px;
+                color: forestgreen;
+                margin-left: 3%;
+            }
+            
+            .tutorial li:nth-child(6) {
+                margin-top: 5px;
+                font-weight: 600;
+                font-size: 20px;
+                color: forestgreen;
+                margin-left: 3%;
+            }
+            
+            .tutorial p:nth-child(7) {
+                margin-top: 5px;
+                font-weight: 600;
+                font-size: 16px;
+                color: forestgreen;
+                margin-left: 3%;
+            }
+            
+            div.flecha {
+                display: block;
+                justify-items: left;
+                margin-top: 50px;
+                margin-left: 50px;
+                width: 300px;
+                height: 350px;
+                /*background-color: #fff;
+                border-radius: 20px;
+                overflow: hidden;
+                box-shadow: 0px 0px 25px forestgreen;*/
+            }
+            
+            .flecha img {
+                margin-top: 130px;
+                margin-left: 75px;
+                box-shadow: 0px 0px 10px forestgreen;
+                width: 35%;
+                border-radius: 20px;
+                object-fit: scale-down;
+            }
